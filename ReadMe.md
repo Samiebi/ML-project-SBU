@@ -63,7 +63,7 @@ they show the trade-off between computational cost and estimation rates. Interes
 ## Mathematical
 Definition 1. (Level-set) The λ-level-set of f is defined as Lf (λ) := {x ∈ X : f(x) ≥ λ}.
 
-Definition 2. d(x, A) := infx0∈A |x − x'|, B(C, r) :={x ∈ X : d(x, C) ≤ r}
+Definition 2. d(x, A) := inf x'∈A |x − x'|, B(C, r) :={x ∈ X : d(x, C) ≤ r}
 
 ## Hyperparameter Settings
 They state the hyperparameter settings in terms of n, the sample size, and the desired density level λ for statistical consistency guarantees to hold. Define Cδ,n =16 log(2/δ) √log n, where δ, 0 < δ < 1, is a confidence parameter that will be used later (i.e. guarantees will hold with probability at least 1 − δ).
