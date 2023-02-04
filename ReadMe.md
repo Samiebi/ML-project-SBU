@@ -97,6 +97,7 @@ The data set can be used for the tasks of classification and cluster analysis.
 
 ## Dimension
 To construct the data, seven geometric parameters of wheat kernels were measured:
+
 1. area A,
 2. perimeter P,
 3. compactness C = 4*pi*A/P^2,
@@ -104,5 +105,6 @@ To construct the data, seven geometric parameters of wheat kernels were measured
 5. width of kernel,
 6. asymmetry coefficient
 7. length of kernel groove.
+
 All of these parameters were real-valued continuous.
 
